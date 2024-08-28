@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Nodes</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Node List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Node ID</th>
+                <th>Node Name</th>
+                <th>Description</th>
+                <th>Memo</th>
+                <th>Node Type</th>
+                <th>Parent Node Group Name</th>
+                <th>Parent Node Group ID</th>
+                <th>Parent Node Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="node : ${nodes}">
+                <td th:text="${node.nodeId}">Node ID</td>
+                <td th:text="${node.nodeName}">Node Name</td>
+                <td th:text="${node.description}">Description</td>
+                <td th:text="${node.memo}">Memo</td>
+                <td th:text="${node.nodeType}">Node Type</td>
+                <td th:text="${node.parentNodeGroupName}">Parent Node Group Name</td>
+                <td th:text="${node.parentNodeGroupId}">Parent Node Group ID</td>
+                <td th:text="${node.parentNodeName}">Parent Node Name</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
