@@ -11,6 +11,7 @@ Upload CSV: Upload a CSV file to bulk add nodes to the database.
 Display Nodes: A simple HTML table to list all nodes in the system.
 
 # Technologies Used 
+
 Java: Core programming language.
 Spring Boot: Framework for building the backend REST API.
 Thymeleaf: Template engine for rendering HTML views.
