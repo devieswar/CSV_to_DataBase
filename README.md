@@ -15,5 +15,5 @@ Spring Boot: Framework for building the backend REST API.
 Thymeleaf: Template engine for rendering HTML views.
 Apache Commons CSV: Library for parsing CSV files.
 Maven: Build automation tool.
-H2 Database: In-memory database for testing purposes.
+MySQL Database.
 CSS: Basic styling for the HTML view.
