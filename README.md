@@ -1,4 +1,5 @@
 # CSV_to_DataBase
+<<<<<<< HEAD
 ## CSV to Database Node Management
 
 
@@ -17,3 +18,6 @@ Apache Commons CSV: Library for parsing CSV files.
 Maven: Build automation tool.
 MySQL Database.
 CSS: Basic styling for the HTML view.
+=======
+Upload the data in CSV to database using Java, springboot and maven
+>>>>>>> d291eaf (csvtodb)
